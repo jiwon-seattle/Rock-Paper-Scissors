@@ -15,8 +15,8 @@ namespace RockPaperScissors
       Console.WriteLine("Enter player 2's sign:");
       string input2 = Console.ReadLine().ToLower();
       game.AssignSigns(input1, input2);
-      Console.WriteLine(game.Player1Sign + game.Player2Sign);
-
+      Console.WriteLine($"{game.Player1Sign} v. {game.Player2Sign} = {game.CheckWinner()}");
+      
     }
   }
 }
