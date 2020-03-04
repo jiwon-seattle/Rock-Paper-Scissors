@@ -1,15 +1,21 @@
-// using System;
+using System;
 // using System.Collections.Generic;
-using ProjectName.Models;
+using RockPaperScissors.Models;
 
-namespace ProjectName
+namespace RockPaperScissors
 {
   public class Program
   {
     public static void Main()
     {
 
-      // UI code goes here
+      Game game = new Game();
+      Console.WriteLine("Enter player 1's sign:");
+      string input1 = Console.ReadLine().ToLower();
+      Console.WriteLine("Enter player 2's sign:");
+      string input2 = Console.ReadLine().ToLower();
+      game.AssignSigns(input1, input2);
+      Console.WriteLine(game.Player1Sign + game.Player2Sign);
 
     }
   }
