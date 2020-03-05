@@ -24,7 +24,7 @@
 ## Setup/Installation Requirements
 
 * Download [.NET Core](https://dotnet.microsoft.com/download/dotnet-core/)
-* Clone this [repository](https://github.com/ayohana/anagram.git/)
+* Clone this [repository](https://github.com/jiwon-seattle/Rock-Paper-Scissors.git)
 * Open the `Command Line Interface`.
   * Navigate into the `Anagram` directory.
     * Type in the command `dotnet restore` to gather tools and dependencies for the application.
